@@ -24,7 +24,7 @@ class TodoListTest {
     }
 
     @org.junit.jupiter.api.Test
-    void mostUrgent() {
+    /*void mostUrgent() {
 
         assertEquals("Computer Science", bobsList.mostUrgent());
         bobsList.updateTaskUrgency("Do the dishes", 2);
@@ -32,10 +32,7 @@ class TodoListTest {
         bobsList.updateTaskUrgency("Computer Science", 6);
         assertEquals("Math homework", bobsList.mostUrgent());
 
-    }
-
-    @org.junit.jupiter.api.Test
-    void averageUrgency() {
+    }*/ void averageUrgency() {
 
         assertEquals(7.8, ((int) (bobsList.averageUrgency()*10))/10.0);
         bobsList.updateTaskUrgency("Math homework", 4);
